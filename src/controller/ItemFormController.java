@@ -5,7 +5,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 
 public class ItemFormController {
@@ -16,5 +15,11 @@ public class ItemFormController {
         Stage stage = (Stage) itemFormContext.getScene().getWindow();
         stage.setScene(new Scene(FXMLLoader
                 .load(getClass().getResource("../view/MainForm.fxml"))));
+    }
+
+    public void btnAddOnAction(ActionEvent actionEvent) {
+    }
+
+    public void btnCancelOnAction(ActionEvent actionEvent) {
     }
 }
